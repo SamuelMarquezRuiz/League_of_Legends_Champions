@@ -97,7 +97,7 @@ fun DinamicChampListItem() {
         Text(
             text = "League of Legends Champions",
             style = MaterialTheme.typography.headlineLarge,
-            modifier = Modifier.background(color = Color.LightGray)
+            modifier = Modifier.padding(horizontal = 16.dp, vertical = 16.dp)
         )
         LazyColumn() {
         items(dinamicChampList) { champ ->
